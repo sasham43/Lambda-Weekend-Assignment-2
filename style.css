@@ -1,0 +1,84 @@
+header, footer{
+  background-color: #5CD941;
+  color: #FFFFFF;
+}
+
+h1{
+  font-size: 4em;
+}
+
+img{
+  border: solid 4px #FF974D;
+}
+
+p{
+  font-weight: bold;
+}
+
+span{
+  font-weight: normal;
+}
+
+.movieContainer {
+  display: inline-block;
+  /*border: solid 4px #FFF;*/
+  color: #FFFFFF;
+}
+
+.movieContainer:nth-child(even) {
+  background-color: #33AA99;
+}
+
+.movieContainer:nth-child(odd){
+  background-color: #416BB2;
+}
+
+.movieContainer button{
+  float: right;
+  border-radius: 17px;
+  margin: 10px 0 10px 5px;
+  background-color: #FFF;
+  font-weight: bold;
+  transition: all 0.1s ease-in;
+}
+
+.movieContainer:nth-child(even) button{
+  color: #33AA99;
+}
+
+.movieContainer:nth-child(odd) button{
+  color: #416BB2;
+}
+
+.searchContainer{
+  background-color: #5CD941;
+  color: #5CD941;
+  padding: 50px;
+  width: 100%;
+}
+
+.row{
+  display: flex;
+}
+
+.poster{
+  max-height: 400px;
+  margin: 1em auto 1em auto;
+}
+
+.btn:focus{
+outline: none;
+}
+
+.rotate{
+  transform: rotate(360deg);
+  vertical-align: bottom;
+}
+
+/*.more{
+
+}
+
+.less{
+
+}*/
